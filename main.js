@@ -1,8 +1,53 @@
 /******************************
  * YOUR CODE GOES RIGHT HERE! *
  ******************************/
+function isItLong (longString){
+  longString = "That's a long string!"
+  if (longString.length >= 20){
+    return longString
+  }
+}
 
+function isItMedium (mediumString){
+  mediumString = "That's a regular sized string!"
+  if (mediumString.length >= 10 <= 20){
+    return mediumString
+  }
+}
 
+function isItShort (shortString){
+  shortString = "That's a small string!"
+  if (shortString.length < 10 ){
+    return shortString
+  }
+  else{
+    return "That's not a small string!"
+  }
+}
+
+function howLongIsMyString (questionString){
+  if (questionString.length > 20){
+    return "thats a long string!"
+  }
+  if (questionString.length >= 10 <= 20){
+    return "That's a regular sized string!"
+  }
+  if (questionString.length < 10){
+    return "Thats a small string!"
+  }
+}
+
+function instructorHeight (instructor){
+  if (instructor === "Colin"){
+    return 62;
+  }
+  if (instructor === "Mesuara"){
+    return 69;
+  }
+  else{
+    return "I don't know that instructor!"
+  }
+}
 
 
 
